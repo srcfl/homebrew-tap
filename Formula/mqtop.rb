@@ -4,28 +4,28 @@
 class Mqtop < Formula
   desc "High-performance MQTT explorer TUI - like htop for your broker"
   homepage "https://github.com/srcfl/mqtop"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/srcfl/mqtop/releases/download/v#{version}/mqtop-macos-arm64"
-      sha256 "a2cc0367c8dbf8a6b2ed4b95c52edfda4afa4428b6de3229cee858d43f080bd3"
+      sha256 "3a5c1f5ead80da6396452cefe4425a89157ec22c4aed38b7580fab173bec29aa"
     end
     on_intel do
       url "https://github.com/srcfl/mqtop/releases/download/v#{version}/mqtop-macos-x64"
-      sha256 "a48774ef095f4f1b6814b5309b7569374e3616f3fce2b515035adf37daec588c"
+      sha256 "35b800c23d51471f9c94863fb0acd50f0de6da899054c0b80ab1ed09d8b5f9b1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/srcfl/mqtop/releases/download/v#{version}/mqtop-linux-arm64"
-      sha256 "2bb3ead0eca6e410769604242bcc4bca2854fbaefe8539b5f6e7d492d36dab1b"
+      sha256 "c05c3710efc874538083cf230a65a630dbd8b188a634a4b723c464d3e745c2e6"
     end
     on_intel do
       url "https://github.com/srcfl/mqtop/releases/download/v#{version}/mqtop-linux-x64"
-      sha256 "be64385b9e04b92ed771f3bdc97ca8d703f224e14ceb7763c4eaefc6e0e30a78"
+      sha256 "a2792c890ffa31f580fdea6dce660d1b783f2a2983f9d2377aa5fad6150d7b80"
     end
   end
 
