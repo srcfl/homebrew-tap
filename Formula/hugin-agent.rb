@@ -1,28 +1,28 @@
 class HuginAgent < Formula
   desc "Thin local agent for Hugin — scans LAN, talks Modbus, runs Lua drivers"
   homepage "https://github.com/srcfl/hugin-agent"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/srcfl/hugin-agent/releases/download/v0.1.1/hugin-agent_Darwin_arm64.tar.gz"
-      sha256 "0432c456391ad7c1b79bcda5d8c4788fe3d5cbddbe06e575e5192a6149fabdde"
+      url "https://github.com/srcfl/hugin-agent/releases/download/v0.2.0/hugin-agent_Darwin_arm64.tar.gz"
+      sha256 "8cdf6d37a16e3d117d885ffd48685de6320092d26146094856d79e405615c202"
     end
     on_intel do
-      url "https://github.com/srcfl/hugin-agent/releases/download/v0.1.1/hugin-agent_Darwin_x86_64.tar.gz"
-      sha256 "70578ba7f54d07a3cfe89dbcb5c258044841591dc88b0c2227e573e99e3a0fb2"
+      url "https://github.com/srcfl/hugin-agent/releases/download/v0.2.0/hugin-agent_Darwin_x86_64.tar.gz"
+      sha256 "9655da9fe2000243557c4a330813063eaf559e40e99ae7d119cee9b96dd4ac63"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/srcfl/hugin-agent/releases/download/v0.1.1/hugin-agent_Linux_arm64.tar.gz"
-      sha256 "045bb8f019cfb100bda1ed80dc597456af91b3dfc324d59fc70914a60f4ae16a"
+      url "https://github.com/srcfl/hugin-agent/releases/download/v0.2.0/hugin-agent_Linux_arm64.tar.gz"
+      sha256 "f64861528eba79de110b8cab304f26f3858a11431dfe6258efb3320b321ac10d"
     end
     on_intel do
-      url "https://github.com/srcfl/hugin-agent/releases/download/v0.1.1/hugin-agent_Linux_x86_64.tar.gz"
-      sha256 "71d7c839f4b8ed50e6f4e0976b401e98964a9c72dcedf7043bacaf9b03559ac6"
+      url "https://github.com/srcfl/hugin-agent/releases/download/v0.2.0/hugin-agent_Linux_x86_64.tar.gz"
+      sha256 "a45e9053cd03e3424e4bc0d1262658198f2e5566f051b2eb63dd9b5e1ca4e5bc"
     end
   end
 
